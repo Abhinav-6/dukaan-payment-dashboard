@@ -2,7 +2,7 @@ import NavbarList from "./ui/NavbarList";
 
 function Navbar() {
   return (
-    <aside className="bg-[#1E2640] w-1/6 h-screen absolute top-0 left-0">
+    <aside className="bg-[#1E2640] w-64 h-screen fixed top-0 left-0" aria-label="Side bar">
       <nav className="text-white flex flex-col  px-4 py-5 h-full justify-between">
         <div className="flex justify-start gap-4 items-center flex-col h-full ">
           <div className="flex w-full gap-4 justify-between items-center">

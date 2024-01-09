@@ -1,3 +1,9 @@
+import Header from "./Header";
+
 export default function Main() {
-  return "main";
+  return (
+    <div className="ml-64">
+      <Header />
+    </div>
+  );
 }
