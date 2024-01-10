@@ -98,7 +98,7 @@ function Overview() {
             </div>
           </>
         </Card>
-        <Card className="px-5 py-5 flex flex-col gap-4  w-[32%] min-w-80">
+        <Card className="px-5 py-5 flex flex-col gap-4  w-[32%] min-w-80 bg-white">
           <>
             <div className="flex justify-between items-center gap-3">
               <span>
@@ -164,7 +164,7 @@ function Overview() {
             </div>
           </>
         </Card>
-        <Card className="flex flex-col gap-4 p-5  w-[32%] min-w-80">
+        <Card className="flex flex-col gap-4 p-5  w-[32%] min-w-80 bg-white">
           <>
             <div className="flex justify-between items-center">
               <p>Amount Processed</p>

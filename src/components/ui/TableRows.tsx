@@ -10,7 +10,7 @@ function TableRows({
   };
 }) {
   return (
-    <tr className="">
+    <tr className="cursor-pointer hover:bg-gray-300 hover:shadow rounded-lg transition duration-300">
       <td className="px-6 py-4">{data["Order Id"]}</td>
       <td className={`text-md font-medium flex items-center gap-1 px-6 py-4`}>
         {data.Status ? (
