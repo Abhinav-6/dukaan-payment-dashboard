@@ -24,8 +24,8 @@ function Overview() {
           </svg>
         </div>
       </div>
-      <div className="flex gap-5 items-start">
-        <Card className="bg-[#146EB4] text-white flex flex-col gap-4 w-1/3">
+      <div className="flex gap-4 w-full items-start flex-wrap justify-center">
+        <Card className="bg-[#146EB4] text-white flex flex-col gap-4 w-[32%] min-w-80">
           <>
             <div className="flex items-center gap-2 px-5 pt-4">
               <span>
@@ -98,7 +98,7 @@ function Overview() {
             </div>
           </>
         </Card>
-        <Card className="px-5 py-5 flex flex-col gap-4 w-1/3">
+        <Card className="px-5 py-5 flex flex-col gap-4  w-[32%] min-w-80">
           <>
             <div className="flex justify-between items-center gap-3">
               <span>
@@ -164,7 +164,7 @@ function Overview() {
             </div>
           </>
         </Card>
-        <Card className="flex flex-col gap-4 p-5 w-1/3">
+        <Card className="flex flex-col gap-4 p-5  w-[32%] min-w-80">
           <>
             <div className="flex justify-between items-center">
               <p>Amount Processed</p>

@@ -5,5 +5,5 @@ export default function ({
   children: JSX.Element;
   className: string | undefined;
 }) {
-  return <div className={`rounded-md shadow-md ${className}`}>{children}</div>;
+  return <div className={`rounded-md shadow-md hover:shadow-lg ${className}`}>{children}</div>;
 }

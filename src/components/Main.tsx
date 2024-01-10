@@ -1,9 +1,10 @@
 import Header from "./Header";
 import Overview from "./ui/Overview";
+import Table from "./ui/Table";
 
 export default function Main() {
   return (
-    <div className="ml-64 bg-[rgba(255,255,255,0.95)]">
+    <div className="ml-64 bg-[rgb(233,233,233)]">
       <Header />
       <Overview />
       <div className="pb-6 pt-8 px-8 flex flex-col gap-5">
@@ -15,7 +16,7 @@ export default function Main() {
           <button className="rounded-2xl px-2 py-1 bg-[#146EB4] text-white">Refunds(6)</button>
         </div>
       </div>
-      
+      <Table/>
     </div>
   );
 }
