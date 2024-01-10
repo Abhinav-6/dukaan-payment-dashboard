@@ -75,7 +75,7 @@ export default function Header({
           </span>
         </div>
       </div>
-      <div className="w-[40px] md:w-auto md:flex-1 text-center">
+      <div className="w-[40px] md:w-auto text-center">
         <SearchBar />
       </div>
       <div className="flex gap-2">
