@@ -11,7 +11,9 @@ function TableRows({
 }) {
   return (
     <tr className="cursor-pointer hover:bg-gray-300 hover:shadow rounded-lg transition duration-300">
-      <td className="px-6 py-4">{data["Order Id"]}</td>
+      <td className="px-6 py-4 text-nowrap whitespace-nowrap text-blue-600">
+        {data["Order Id"]}
+      </td>
       <td className={`text-md font-medium flex items-center gap-1 px-6 py-4`}>
         {data.Status ? (
           <svg
@@ -36,9 +38,15 @@ function TableRows({
         )}
         {data.Status ? "Succesful" : "Pending"}
       </td>
-      <td className="px-6 py-4">{data["Transaction Id"]}</td>
-      <td className="px-6 py-4">{data["Refund date"]}</td>
-      <td className="px-6 py-4">{data["Order Amt"]}</td>
+      <td className="px-6 py-4 text-nowrap whitespace-nowrap">
+        {data["Transaction Id"]}
+      </td>
+      <td className="px-6 py-4 text-nowrap whitespace-nowrap">
+        {data["Refund date"]}
+      </td>
+      <td className="px-6 py-4 text-nowrap whitespace-nowrap">
+        {data["Order Amt"]}
+      </td>
     </tr>
   );
 }
